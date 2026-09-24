@@ -1,0 +1,25 @@
+{
+  "name": "qa-manager",
+  "description": "A QA test-session engine for opencode: a manager plus the qa-analyst/qa-manual/qa-automator subagents, a session file scheme, retros. Project specifics live in the project's .opencode/qa-profile.md.",
+  "version": "0.16.28",
+  "engine": "opencode",
+  "author": {
+    "name": "Vadim Glushonkov"
+  },
+  "homepage": "https://github.com/roystanalva/QA-Manager",
+  "repository": "https://github.com/roystanalva/QA-Manager",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "test-sessions",
+    "test-management",
+    "qa-automation",
+    "subagents"
+  ],
+  "manifest_version": "1",
+  "references": {
+    "dev": "./skills",
+    "prod": "./.opencode/skills"
+  }
+}

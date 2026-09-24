@@ -1,0 +1,8 @@
+docs/
+.DS_Store
+.superpowers/
+AGENTS.md
+__pycache__/
+
+# eval run artifacts
+evals/results/
